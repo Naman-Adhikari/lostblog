@@ -1,0 +1,12 @@
+
+{% extends "blog/base.html" %}
+{% block content %}
+  <div>
+  <h1 class="text-lg text-gray-300"'>You have Logged out. </h1>
+  <div class="border-t border-gray-600 pt-4 mt-6 text-center">
+    <small class="text-gray-400">
+      <a href="{% url 'login' %}" class="text-yellow-400 hover:text-green-300">Log back in?</a>
+    </small>
+  </div>
+</div>
+{% endblock content %}
